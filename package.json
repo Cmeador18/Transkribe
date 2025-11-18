@@ -1,0 +1,11 @@
+{
+  "name": "Transkribe",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^39.2.1"
+  }
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Transkribe</title>
+</head>
+<body style="background-color: cyan; text-align: center;">
+    <h1 style="text-align: center;">Transkribe</h1>
+    <input type="file" id="myFile" style="display: none;">
+    <label id="fLabel" for="myFile" style="cursor: pointer;">Choose File</label>
+    <button id="submit">Submit</button>
+    <h2 id="fName"></h2>
+    <h2 id="error"></h2>
+    <a id="download"></a>
+    <div id="dropArea">We also support a little bit of dragging and dropping.</div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>

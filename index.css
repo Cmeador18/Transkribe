@@ -1,0 +1,35 @@
+#dropArea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  background: rgba(0, 0, 0, 0.05);
+  z-index: -1;
+}
+
+#fLabel {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #ff5797;
+  color: rgb(0, 0, 0);
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+#submit {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #ff5797;
+  color: rgb(0, 0, 0);
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
